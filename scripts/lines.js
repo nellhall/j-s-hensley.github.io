@@ -78,7 +78,6 @@ function updateClient() {
   if ((width != parseFloat(boxContainer.clientWidth))||(height != parseFloat(boxContainer.clientHeight))){
     width = parseFloat(boxContainer.clientWidth);
     height = parseFloat(boxContainer.clientHeight);
-    voronoi.extent([[0,0],[width,height]]);
   }
 }
 
@@ -121,7 +120,7 @@ function Initialize(nPoints) {
   for(var i = 0; i < nPoints/2; i++){
     var x1 = Math.random()*width/2.0 + 10;
     var x2 = width - Math.random()*width/2.0 - 10;
-    var y = Math.random()*(height - 100) + 10;
+    var y = Math.random()*(height - 130) + 10;
     var color = colors[Math.floor(Math.random()*colors.length)];
     addLine(x1, y, x2, y,color);
   }

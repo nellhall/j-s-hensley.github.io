@@ -11,7 +11,7 @@ body {
   display:flex;
   flex-direction: column;
   justify-content: stretch;
-  font-family: 'Helvetica Neue';
+  font-family: 'Montserrat';
   background-color: #3d3f44;
   min-height:100%;
   margin: 0;

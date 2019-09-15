@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis|Montserrat|Open+Sans|PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300&display=swap');
 
 html{
   height:100%;
@@ -11,7 +11,7 @@ body {
   display:flex;
   flex-direction: column;
   justify-content: stretch;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'Open Sans';
   background-color: #3d3f44;
   min-height:100%;
   margin: 0;

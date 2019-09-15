@@ -11,7 +11,7 @@ body {
   display:flex;
   flex-direction: column;
   justify-content: stretch;
-  font-family: 'Helvetica Neue';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   background-color: #3d3f44;
   min-height:100%;
   margin: 0;

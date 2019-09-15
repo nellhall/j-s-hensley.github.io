@@ -88,6 +88,41 @@ body {
   margin-top: 50px;
 }
 
+.dropButton{
+  display:inline;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #e02fe0;
+}
+
+.dropArrow{
+  font-size: 22px;
+  display:inline-block;
+  font-family: 'Montserrat';
+  color: #e02fe0;
+  transition: 500ms ease;
+}
+
+.rotated {
+  transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+}
+
+.dropContent{
+  display:inline-block;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  overflow:hidden;
+  max-height: 0px;
+  transition:max-height 500ms ease;
+}
+
+.visible {
+  max-height: 200px;
+}
+
 svg {
   padding:0px;
   background-image: linear-gradient(to bottom left,#1b1e26,#2f3442);

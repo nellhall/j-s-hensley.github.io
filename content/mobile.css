@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis|Montserrat|Open+Sans|PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Montserrat|Open+Sans:300&display=swap');
 
 html{
 }
 
 body {
-  font-family: 'Helvetica Neue';
+  font-family: 'Open Sans';
   background-color: #3d3f44;
   margin: 0;
 }
@@ -51,7 +51,7 @@ body {
 
 .BodyContainer p{
   font-size: 18px;
-  font-weight:300;
+  font-weight:200;
   letter-spacing: 0.03em;
 }
 
@@ -71,6 +71,41 @@ body {
   padding-right: 10px;
   padding-bottom:5px;
   margin-top: 50px;
+}
+
+.dropButton{
+  display:inline;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #e02fe0;
+}
+
+.dropArrow{
+  font-size: 22px;
+  display:inline-block;
+  font-family: 'Montserrat';
+  color: #e02fe0;
+  transition: 500ms ease;
+}
+
+.rotated {
+  transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+}
+
+.dropContent{
+  display:inline-block;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  overflow:hidden;
+  max-height: 0px;
+  transition:max-height 500ms ease;
+}
+
+.visible {
+  max-height: 400px;
 }
 
 svg {

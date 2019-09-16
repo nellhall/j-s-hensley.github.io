@@ -99,7 +99,7 @@ body {
   display:inline-block;
   font-size: 18px;
   letter-spacing: 0.03em;
-  overflow:hidden;
+  overflow:scroll;
   max-height: 0px;
   transition:max-height 500ms ease;
 }

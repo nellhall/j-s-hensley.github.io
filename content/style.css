@@ -93,6 +93,7 @@ body {
   font-size: 18px;
   letter-spacing: 0.03em;
   color: #e02fe0;
+  cursor:pointer;
 }
 
 .dropArrow{
